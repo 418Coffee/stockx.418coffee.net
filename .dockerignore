@@ -1,0 +1,12 @@
+**
+!Dockerfile
+!package.json
+!package-lock.json
+!index.html
+!src/
+!src/**
+!docs/
+!vite.config.js
+!security-headers.js
+!deploy/
+!deploy/nginx.conf
