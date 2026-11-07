@@ -35,6 +35,7 @@ The maximum PDF size is **10 MB**. URL imports accept only HTTPS URLs on `stockx
 - [PDF.js](https://mozilla.github.io/pdf.js/) for document inspection
 - Vite for development and static builds
 - Node.js test runner and Playwright for testing
+- Cloudflare Pages
 
 ## Development
 
@@ -56,7 +57,7 @@ npm run test:browser
 
 To use an installed Chrome, run `CHROME_PATH=/path/to/chrome npm run test:browser`.
 
-`npm run sample` generates `artifacts/modified-label.pdf` from the example. PDFs and review artifacts are gitignored because they contain personal shipping information. See [PDF format notes](docs/pdf-formats.md) for crop rules, validation and verification limitations.
+`npm run sample` generates `artifacts/modified-label.pdf` from the example.
 
 ## Deployment
 
@@ -66,10 +67,6 @@ To use an installed Chrome, run `CHROME_PATH=/path/to/chrome npm run test:browse
 docker build -t stockx-label-modifier .
 docker run --rm -p 8080:8080 stockx-label-modifier
 ```
-
-## Security
-
-See [SECURITY.md](SECURITY.md) for the security review, applied hardening, and remaining limitations.
 
 ## Contributing
 
