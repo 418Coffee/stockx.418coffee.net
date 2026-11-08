@@ -17,8 +17,6 @@ A static website that saves paper by combining StockX the order information and 
 
 This tool removes shipping instructions and unnecessary headings while retaining the order details, StockX identification QR code, and complete shipping label at its original size.
 
-Currently, only the supplied two-page English A4 DPD format is supported. Other layouts are rejected. Carrier-specific validation and crop rules live in separate [format modules](src/formats/), ready for additional formats when examples are available. Automatic label detection is not implemented yet.
-
 PDFs are processed entirely in the browser and are never uploaded. No accounts, extensions, or software installation are required for users.
 
 ## Usage
