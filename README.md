@@ -9,7 +9,6 @@ A static website that saves paper by combining StockX the order information and 
 - [Stack](#stack)
 - [Development](#development)
 - [Deployment](#deployment)
-- [Security](#security)
 - [Contributing](#contributing)
 - [License](#license)
 - [Disclaimer](#disclaimer)
@@ -33,9 +32,9 @@ The maximum PDF size is **10 MB**. URL imports accept only HTTPS URLs on `stockx
 - HTML, CSS, JavaScript
 - [pdf-lib](https://pdf-lib.js.org/) for PDF composition
 - [PDF.js](https://mozilla.github.io/pdf.js/) for document inspection
+- Cloudflare Pages
 - Vite for development and static builds
 - Node.js test runner and Playwright for testing
-- Cloudflare Pages
 
 ## Development
 
